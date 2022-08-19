@@ -1,0 +1,12 @@
+package semana04;
+
+public class Desafio1 {
+
+	public static void main(String[] args) {
+		
+		Objetos2 obj1 = new Objetos2(10, 20);
+		System.out.println(obj1);
+
+	}
+
+}

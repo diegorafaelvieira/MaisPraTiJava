@@ -1,0 +1,5 @@
+package semana03;
+
+public class ObjetosTriangulares extends Objetos2 {
+
+}
