@@ -20,6 +20,7 @@ public class Main {
 			int y = Integer.parseInt(numeros[1]);
 			System.out.println("x = "+x + " y = "+y);
 			if(entrada.equals("FIM")) break;
+			continuarPartida = mapa.disparo(x,y);
 			mapa.desenhaCenario();
 		}
 
