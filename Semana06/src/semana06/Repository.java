@@ -3,9 +3,9 @@ package semana06;
 import java.util.ArrayList;
 import java.util.List;
 
-public class Repository<T> {
+public class Repository<T> { //generics
 
-	private List<T> banco;
+	private List<T> banco; 
 	
 	public Repository() {
 		banco = new ArrayList<>();
@@ -19,7 +19,7 @@ public class Repository<T> {
 		return banco;
 	}
 	
-	public T buscar(T t) {
+	public T buscar(T t) { //Stream
 		return banco.stream().filter(elemento -> elemento == t).findFirst().orElse(null);
 	}
 	
